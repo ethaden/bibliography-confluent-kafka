@@ -1,0 +1,10 @@
+= Bibliography: Confluent and Kafka =
+
+This repository contains references to publications regarding Confluent, Apache Kafka and related tools.
+Naturally, this list of publications is not and will never be complete, due to progress in research.
+
+If you think an important publication is missing here, just drop me a note or create a pull request.
+
+== Usage ==
+
+The provided Bibtex file has been created for being used with _LaTeX_ and the _biblatex_ package. I recommend using a modern LaTeX bibliography tool chain based on _biber_.

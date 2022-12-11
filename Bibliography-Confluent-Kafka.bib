@@ -1,0 +1,560 @@
+@Misc{Sharvari2019,
+  author    = {T, Sharvari and K, Sowmya Nag},
+  date      = {2019},
+  title     = {A study on Modern Messaging Systems- Kafka, RabbitMQ and NATS Streaming},
+  doi       = {10.48550/ARXIV.1912.03715},
+  language  = {english},
+  url       = {https://arxiv.org/abs/1912.03715},
+  abstract  = {Distributed messaging systems form the core of big data streaming, cloud native applications and microservice architecture. With real-time critical applications there is a growing need for well-built messaging platform that is scalable, fault tolerant and has low latency. There are multiple modern messaging systems that have come up in the recent past, all with their own pros and cons. This has become problematic for the industry to decide which messaging system is the most suitable for a specific application. An in-depth study is required to decide which features of a messaging system meet the needs of the application. This survey paper outlines the modern messaging technologies and delves deep on three popular publisher/subscriber systems- Apache Kafka, RabbitMQ and NATS Streaming. The paper provides information about messaging systems, the use cases, similarities and differences of features to facilitate users to make an informed decision and also pave way for future research and development.},
+  copyright = {arXiv.org perpetual, non-exclusive license},
+
+  groups    = {Kafka},
+  keywords  = {Distributed, Parallel, and Cluster Computing (cs.DC), FOS: Computer and information sciences, Kafka},
+  publisher = {arXiv},
+}
+
+@InProceedings{LeNoach2017,
+  author    = {Le Noac'h, Paul and Costan, Alexandru and Bougé, Luc},
+  booktitle = {2017 IEEE International Conference on Big Data (Big Data)},
+  date      = {2017-12},
+  title     = {A performance evaluation of Apache Kafka in support of big data streaming applications},
+  doi       = {10.1109/BigData.2017.8258548},
+  language  = {english},
+  pages     = {4803-4806},
+  abstract  = {Stream computing is becoming a more and more popular paradigm as it enables the real-time promise of data analytics. Apache Kafka is currently the most popular framework used to ingest the data streams into the processing platforms. However, how to tune Kafka and how much resources to allocate for it remains a challenge for most users, who now rely mainly on empirical approaches to determine the best parameter settings for their deployments. In this poster, we make a through evaluation of several configurations and performance metrics of Kafka in order to allow users avoid bottlenecks, reach its full potential and avoid bottlenecks and eventually leverage some good practice for efficient stream processing.},
+
+  groups    = {Kafka},
+  keywords  = {Kafka},
+}
+
+@InProceedings{Hiraman2018,
+  author    = {Hiraman, Bhole Rahul and Viresh M., Chapte and Abhijeet C., Karve},
+  booktitle = {2018 International Conference on Information , Communication, Engineering and Technology (ICICET)},
+  date      = {2018-08},
+  title     = {A Study of Apache Kafka in Big Data Stream Processing},
+  doi       = {10.1109/ICICET.2018.8533771},
+  language  = {english},
+  pages     = {1-3},
+  abstract  = {Big data the name implies huge volume of data. Now a days streaming of data is more popular model which enables real time streaming data for data analytics. In current era Apache Kafka is most popular architecture used for processing the stream data. Kafka is scalable, distributed, and reliable result into high throughput. It also provides an API similar to messaging system.},
+
+  groups    = {Kafka},
+  keywords  = {Kafka},
+}
+
+@InProceedings{Dsilva2017,
+  author    = {D'silva, Godson Michael and Khan, Azharuddin and Gaurav and Bari, Siddhesh},
+  booktitle = {2017 2nd IEEE International Conference on Recent Trends in Electronics, Information & Communication Technology (RTEICT)},
+  date      = {2017-05},
+  title     = {Real-time processing of IoT events with historic data using Apache Kafka and Apache Spark with dashing framework},
+  doi       = {10.1109/RTEICT.2017.8256910},
+  language  = {english},
+  pages     = {1804-1809},
+  abstract  = {IoT (Internet of Things) is a concept that broadens the idea of connecting multiple devices to each other over the Internet and enabling communication between these devices. Traditionally, the packets are sent over the network for communication only if both, the sender as well as the receiver, are online. This forces the sender and the receiver to be online 24×7; which is not achievable in each and every environment the devices communicates in. Considering the humongous data generated in the communication, it is necessary to store and process this data so that data insights can be identified to improve the organizational benefits. This generated data can be in two forms, real-time as well as existing or historical data. When this data is obtained in real-time and it is processed, even traditional big data technologies do not perform up to the mark. Hence to process this real-time data, streaming of this data is required; which is not a feature of traditional big data technologies. To achieve these objectives, the proposed architecture uses open source technologies such as Apache Kafka, for online and offline consumption of messages, and Apache Spark, to stream, process and provide a structure to the real-time and existing data. A framework known as Dashing is used to present the processed data in a more attractive and readable manner.},
+
+  groups    = {Kafka},
+  keywords  = {Kafka},
+}
+
+@InProceedings{Wu2020,
+  author    = {Wu, Han and Shang, Zhihao and Wolter, Katinka},
+  booktitle = {2020 50th Annual IEEE/IFIP International Conference on Dependable Systems and Networks (DSN)},
+  date      = {2020-06},
+  title     = {Learning to Reliably Deliver Streaming Data with Apache Kafka},
+  doi       = {10.1109/DSN48063.2020.00068},
+  language  = {english},
+  pages     = {564-571},
+  abstract  = {The rise of streaming data processing is driven by mass deployment of sensors, the increasing popularity of mobile devices, and the rapid growth of online financial trading. Apache Kafka is often used as a real-time messaging system for many stream processors. However, efficiently running Kafka as a reliable data source is challenging, especially in the case of real-time processing with unstable network connection. We find that changing configuration parameters can significantly impact the guarantee of message delivery in Kafka. Therefore the key to solving the above problem is to predict the reliability of Kafka given various configurations and network conditions. We define two reliability metrics to be predicted, the probability of message loss and the probability of message duplication. Artificial neural networks (ANN) are applied in our prediction model and we select some key parameters, as well as network metrics as the features. To collect sufficient training data for our model we build a Kafka testbed based on Docker containers. With the neural network model we can predict Kafka's reliability for different application scenarios given various network environments. Combining with other metrics that a streaming application user may care for, a weighted key performance indicator (KPI) of Kafka is proposed for selecting proper configuration parameters. In the experiments we propose a rough dynamic configuration scheme, which significantly improves the reliability while guaranteeing message timeliness.},
+
+  groups    = {Kafka},
+  issn      = {1530-0889},
+  keywords  = {Kafka},
+}
+
+@InProceedings{Wu2019,
+  author    = {Wu, Han and Shang, Zhihao and Wolter, Katinka},
+  booktitle = {2019 IEEE International Symposium on Software Reliability Engineering Workshops (ISSREW)},
+  date      = {2019-10},
+  title     = {TRAK: A Testing Tool for Studying the Reliability of Data Delivery in Apache Kafka},
+  doi       = {10.1109/ISSREW.2019.00101},
+  language  = {english},
+  pages     = {394-397},
+  abstract  = {In modern applications the demand for real-time processing of high-volume data streams is growing. Common application scenarios include market feed processing and electronic trading, maintenance of IoT devices and fraud detection. In some scenarios reliability is the utmost concern while in others speed and simplicity are the top priority. Apache Kafka is a high-throughput distributed messaging system and its reliable stream delivery capability makes it an ideal source of data for stream-processing systems. With various configurable parameters Kafka is very flexible in reliable data delivery thus allowing all kinds of reliability tradeoffs. In this paper we introduce a tool for Testing the Reliability of Apache Kafka (TRAK), to study different data delivery semantics in Kafka and compare their reliability under poor network quality. We build a Kafka testbed using Docker containers and use a network emulation tool to control the network delay and loss. Two metrics, message loss rate and duplicate rate, are used in our experiments to evaluate the reliability of data delivery in Kafka. The experimental results show that under high network delay the size of messages matters. The at-least-once semantics is more reliable than at-most-once in a network with high packet loss, but can lead to duplicated messages.},
+
+  groups    = {Kafka},
+  keywords  = {Kafka},
+}
+
+@InProceedings{Tun2019,
+  author    = {Tun, May Thet and Nyaung, Dim En and Phyu, Myat Pwint},
+  booktitle = {2019 International Conference on Advanced Information Technologies (ICAIT)},
+  date      = {2019-11},
+  title     = {Performance Evaluation of Intrusion Detection Streaming Transactions Using Apache Kafka and Spark Streaming},
+  doi       = {10.1109/AITC.2019.8920960},
+  language  = {english},
+  pages     = {25-30},
+  abstract  = {In the information era, the size of network traffic is complex because of massive Internet-based services and rapid amounts of data. The more network traffic has enhanced, the more cyberattacks have dramatically increased. Therefore, cybersecurity intrusion detection has been a challenge in the current research area in recent years. The Intrusion detection system requires high-level protection and detects modern and complex attacks with more accuracy. Nowadays, big data analytics is the main key to solve marketing, security and privacy in an extremely competitive financial market and government. If a huge amount of stream data flows within a short period time, it is difficult to analyze real-time decision making. Performance analysis is extremely important for administrators and developers to avoid bottlenecks. The paper aims to reduce time-consuming by using Apache Kafka and Spark Streaming. Experiments on the UNSWNB-15 dataset indicate that the integration of Apache Kafka and Spark Streaming can perform better in terms of processing time and fault-tolerance on the huge amount of data. According to the results, the fault tolerance can be provided by the multiple brokers of Kafka and parallel recovery of Spark Streaming. And then, the multiple partitions of Apache Kafka increase the processing time in the integration of Apache Kafka and Spark Streaming.},
+
+  groups    = {Kafka},
+  keywords  = {Kafka},
+}
+
+@InProceedings{Vyas2021,
+  author    = {Vyas, Shubham and Tyagi, Rajesh Kumar and Jain, Charu and Sahu, Shashank},
+  booktitle = {2021 Fourth International Conference on Computational Intelligence and Communication Technologies (CCICT)},
+  date      = {2021-07},
+  title     = {Literature Review : A Comparative Study of Real Time Streaming Technologies and Apache Kafka},
+  doi       = {10.1109/CCICT53244.2021.00038},
+  language  = {english},
+  pages     = {146-153},
+  abstract  = {For data ware housing projects, there are multiple licensed ETL (Extraction Transformation & Load) tools available in the market. To process and pass the data between two applications industry is using ETL tools like IBM Info-sphere Data Stage, Informatica, Ab Initio etc. These tools are exceptionally costly and has recurring enterprise licensees, and processed data is not available in real time, data is getting processed in batches and is available during pre-defined time intervals or on demand. Industry has started adopting the Open Source technologies to avoid the huge licensing cost and that also includes the complete end to end IT infrastructure cost. Open Source technologies and frameworks enables users to run projects with best in class performance and within the budget.In this literature survey paper, all possible technologies have been studied and evaluated, available in the market capable of real/ “near-real-time” streaming. All licensed and open source products which are utilized and evaluated by various IT organizations and which are also evaluated by researchers have been included in this survey. There is a need of a distributed scalable technology that enables the users to ensure availability of data from one end point to another in real time with good throughput, performance and low latency. To study this, a detailed comparative survey of an open source technology Apache Kafka has been done and it compared with the other available technologies capable of doing real time streaming.},
+
+  groups    = {Kafka},
+  keywords  = {Kafka},
+}
+
+@InProceedings{Wu2020a,
+  author    = {Wu, Han and Shang, Zhihao and Peng, Guang and Wolter, Katinka},
+  booktitle = {2020 IEEE 31st International Symposium on Software Reliability Engineering (ISSRE)},
+  date      = {2020-10},
+  title     = {A Reactive Batching Strategy of Apache Kafka for Reliable Stream Processing in Real-time},
+  doi       = {10.1109/ISSRE5003.2020.00028},
+  language  = {english},
+  pages     = {207-217},
+  abstract  = {Modern stream processing systems need to process large volumes of data in real-time. Various stream processing frameworks have been developed and messaging systems are widely applied to transfer streaming data among different applications. As a distributed messaging system with growing popularity, Apache Kafka processes streaming data in small batches for efficiency. However, the robustness of Kafka's batching method against variable operating conditions is not known. In this paper we study the impact of the batch size on the performance of Kafka. Both configuration parameters, the spatial and temporal batch size, are considered. We build a Kafka testbed using Docker containers to analyze the distribution of Kafka's end-to-end latency. The experimental results indicate that evaluating the mean latency only is unreliable in the context of real-time systems. In the experiments where network faults are injected, we find that the batch size affects the message loss rate in the presence of an unstable network connection. However, allocating resources for message processing and delivery that will violate the reliability requirements implemented as latency constraints of a real-time system is inefficient To address these challenges we propose a reactive batching strategy. We evaluate our batching strategy in both good and poor network conditions. The results show that the strategy is powerful enough to meet both latency and throughput constraints even when network conditions are variable.},
+
+  groups    = {Kafka},
+  issn      = {2332-6549},
+  keywords  = {Kafka},
+}
+
+@InProceedings{Raza2021,
+  author    = {Raza, Murtaza and Tahir, Jawad and Doblander, Christoph and Mayer, Ruben and Jacobsen, Hans-Arno},
+  booktitle = {Proceedings of the 22nd International Middleware Conference: Demos and Posters},
+  date      = {2021},
+  title     = {Benchmarking Apache Kafka under Network Faults},
+  doi       = {10.1145/3491086.3492470},
+  isbn      = {9781450391542},
+  language  = {english},
+  location  = {Virtual Event, Canada},
+  pages     = {5–7},
+  publisher = {Association for Computing Machinery},
+  series    = {Middleware '21},
+  url       = {https://doi.org/10.1145/3491086.3492470},
+  abstract  = {Network faults are often transient and hence hard to detect and difficult to resolve. Our study conducts an analysis of Kafka's network fault tolerance capabilities, one of the widely used distributed stream processing system (DSPS). Across different Kafka configurations, we observed that Kafka is fault-tolerant towards network faults to some degree, and we report observations of its shortcomings. We also define a network fault-tolerance benchmark on which other DSPSs can be evaluated.},
+  address   = {New York, NY, USA},
+
+  groups    = {Kafka},
+  keywords  = {chaos testing, monitoring, Kafka, Kafka streams},
+  numpages  = {3},
+}
+
+@InProceedings{Hesse2020,
+  author    = {Hesse, Guenter and Matthies, Christoph and Uflacker, Matthias},
+  booktitle = {2020 IEEE 26th International Conference on Parallel and Distributed Systems (ICPADS)},
+  date      = {2020-12},
+  title     = {How Fast Can We Insert? An Empirical Performance Evaluation of Apache Kafka},
+  doi       = {10.1109/ICPADS51040.2020.00089},
+  language  = {english},
+  pages     = {641-648},
+  abstract  = {Message brokers see widespread adoption in modern IT landscapes, with Apache Kafka being one of the most employed platforms. These systems feature well-defined APIs for use and configuration and present flexible solutions for various data storage scenarios. Their ability to scale horizontally enables users to adapt to growing data volumes and changing environments. However, one of the main challenges concerning message brokers is the danger of them becoming a bottleneck within an IT architecture. To prevent this, knowledge about the amount of data a message broker using a specific configuration can handle needs to be available. In this paper, we propose a monitoring architecture for message brokers and similar Java Virtual Machine-based systems. We present a comprehensive performance analysis of the popular Apache Kafka platform using our approach. As part of the benchmark, we study selected data ingestion scenarios with respect to their maximum data ingestion rates. The results show that we can achieve an ingestion rate of about 420,000 messages/second on the used commodity hardware and with the developed data sender tool.},
+
+  groups    = {Kafka},
+  issn      = {2690-5965},
+  keywords  = {Kafka},
+}
+
+@InProceedings{Kato2018,
+  author    = {Kato, Kasumi and Takefusa, Atsuko and Nakada, Hidemoto and Oguchi, Masato},
+  booktitle = {2018 IEEE International Conference on Big Data (Big Data)},
+  date      = {2018-12},
+  title     = {A Study of a Scalable Distributed Stream Processing Infrastructure Using Ray and Apache Kafka},
+  doi       = {10.1109/BigData.2018.8622415},
+  language  = {english},
+  pages     = {5351-5353},
+  abstract  = {The spread of various sensors and the development of cloud computing technologies enable the accumulation and use of many live logs in ordinary homes. In addition, deep learning technologies have been widely used for image and speech recognition processing. However, a key issue for deep learning is heavy processing loads. To operate a service that utilizes sensor data, those data are transmitted from sensors in ordinary homes to a cloud and analyzed in the cloud. However, services that involve moving image analysis require large amounts of data to be transferred continuously and high computing power for the analysis; hence, it is difficult to process them in real time in the cloud using a conventional stream data processing framework. First, we perform preliminary experiments using Apache Spark [3] (hereinafter called Spark), which is a representative cluster computing platform that is designed to be fast and versatile, and Ray [4] , which is a distributed execution framework. We investigate the characteristics of their distributed recognition processing and demonstrate that Ray enables scalable distributed processing. Next, We implement a prototype system of the proposed distributed stream processing infrastructure using Ray and Apache Kafka [1] (hereinafter called Kafka), which is a distributed messaging system, and demonstrate its performance.},
+
+  groups    = {Kafka},
+  keywords  = {Kafka},
+}
+
+@InProceedings{Moon2020,
+  author    = {Moon, Ju-Hyeon and Shine, Yong-Tae},
+  booktitle = {2020 IEEE International Conference on Big Data and Smart Computing (BigComp)},
+  date      = {2020-02},
+  title     = {A Study of Distributed SDN Controller Based on Apache Kafka},
+  doi       = {10.1109/BigComp48618.2020.0-101},
+  language  = {english},
+  pages     = {44-47},
+  abstract  = {There is a problem that traditional networks do not have the flexibility to respond to today's rapidly changing Internet business. To solve this problem, SDN was introduced to separate the network control department and control the entire network through software. In this paper, the distributed message system of Apache Kafka was designed to support large-scale distributed messages between SDN controllers. The proposed system measured the message processing time of Kafka and the existing Message Queue and evaluated its performance.},
+
+  groups    = {Kafka},
+  issn      = {2375-9356},
+  keywords  = {Kafka},
+}
+
+@InProceedings{Bang2018,
+  author    = {Bang, Jiwon and Son, Siwoon and Kim, Hajin and Moon, Yang-Sae and Choi, Mi-Jung},
+  booktitle = {NOMS 2018 - 2018 IEEE/IFIP Network Operations and Management Symposium},
+  title     = {Design and implementation of a load shedding engine for solving starvation problems in Apache Kafka},
+  pages     = {1-4},
+  abstract  = {Real-time data stream processing technologies such as Apache Storm and Apache Spark are being actively studied to deal with large-capacity data streams that generated rapidly in real time. Because it is difficult to use most real-time processing techniques alone, it is common to use it with a messaging system that supports input and output of data streams. Apache Kafka is a representative distributed messaging system, specialized in delivering large amounts of real-time log data. However, if the production rate of data in Kafka is faster than the consumption rate, data starvation problem may arise. In order to solve the starvation problem, a load shedding technique is needed to limit the incoming data and maintain system performance when the system is under load. Thus, in this paper confirmed the starvation problem that can occur in Kafka, and we designed and implemented a load shedding engine to solve this problem and proposed a solution to the starvation problem in Kafka based on the performance experiment.},
+  date      = {2018-04},
+  doi       = {10.1109/NOMS.2018.8406306},
+  groups    = {Kafka},
+  issn      = {2374-9709},
+  keywords  = {Kafka},
+  language  = {english},
+}
+
+@InProceedings{Ouhssini2021,
+  author    = {Ouhssini, Mohamed and Afdel, Karim and Idhammad, Mohamed and Agherrabi, Elhafed},
+  booktitle = {2021 Fifth International Conference On Intelligent Computing in Data Sciences (ICDS)},
+  title     = {Distributed intrusion detection system in the cloud environment based on Apache Kafka and Apache Spark},
+  pages     = {1-6},
+  abstract  = {After, the emergence of cloud computing (CC), it’s gained more attraction to be used for organizations and users. CC allows to migrate the computing power to the internet services. That makes cloud system target of attackers to disrupt services or data breaching. Many existing works try to deal with security issues in cloud computing systems, but it is still suffering against new updated attacks. Therefore, it’s necessary to develop new IDS able to detect attacks with high performance. In this paper, we present a distributed IDS based on big data tools and machine learing algorithms to detect attacks in the cloud systems. This proposed system designed to be installed in the front of cloud network architecture. The network traffic is collected from edge routers and streamed with Kafka component to Spark component for prepressing, anomaly detection and attack classification. In preprocessing stage, data cleaning, formatting and feature selection based on K-means clustering are performed. In the anomaly detection and attack classification, we compared different machine learning algorithms optimized with hypermeters tuning based on grid search. Various experiments are conducted on Google cloud platform to evaluated the system using CIDDS-001 dataset. The Decision tree classifier outperform all in term of accuracy and F1-score in anomaly detection stage the same for attacks classification stage, Random Forest yielded Decision tree in term of accuracy and F1-score. Duo to lower detection time, we choose DT to build our system.},
+  date      = {2021-10},
+  doi       = {10.1109/ICDS53782.2021.9626721},
+  groups    = {Kafka},
+  keywords  = {Kafka},
+  language  = {english},
+}
+
+@InProceedings{Raptis2022,
+  author    = {Raptis, Theofanis P. and Passarella, Andrea},
+  booktitle = {2022 International Conference on Computer, Information and Telecommunication Systems (CITS)},
+  date      = {2022-07},
+  title     = {On Efficiently Partitioning a Topic in Apache Kafka},
+  doi       = {10.1109/CITS55221.2022.9832981},
+  language  = {english},
+  pages     = {1-8},
+  abstract  = {Apache Kafka addresses the general problem of delivering extreme high volume event data to diverse consumers via a publish-subscribe messaging system. It uses partitions to scale a topic across many brokers for producers to write data in parallel, and also to facilitate parallel reading of consumers. Even though Apache Kafka provides some out of the box optimizations, it does not strictly define how each topic shall be efficiently distributed into partitions. The well-formulated fine-tuning that is needed in order to improve an Apache Kafka cluster performance is still an open research problem. In this paper, we first model the Apache Kafka topic partitioning process for a given topic. Then, given the set of brokers, constraints and application requirements on throughput, OS load, replication latency and unavailability, we formulate the optimization problem of finding how many partitions are needed and show that it is computationally intractable, being an integer program. Furthermore, we propose two simple, yet efficient heuristics to solve the problem: the first tries to minimize and the second to maximize the number of brokers used in the cluster. Finally, we evaluate its performance via largescale simulations, considering as benchmarks some Apache Kafka cluster configuration recommendations provided by Microsoft and Confluent. We demonstrate that, unlike the recommendations, the proposed heuristics respect the hard constraints on replication latency and perform better w.r.t. unavailability time and OS load, using the system resources in a more prudent way.},
+
+  groups    = {Kafka},
+  keywords  = {Kafka},
+}
+
+@InProceedings{Raptis2022a,
+  author    = {Raptis, Theofanis P. and Cicconetti, Claudio and Falelakis, Manolis and Kanellos, Tassos and Lobo, Tomás Pariente},
+  booktitle = {2022 IEEE International Smart Cities Conference (ISC2)},
+  date      = {2022-09},
+  title     = {Design Guidelines for Apache Kafka Driven Data Management and Distribution in Smart Cities},
+  doi       = {10.1109/ISC255366.2022.9922546},
+  language  = {english},
+  pages     = {1-7},
+  abstract  = {Smart city management is going through a remarkable transition, in terms of quality and diversity of services provided to the end-users. The stakeholders that deliver pervasive applications are now able to address fundamental challenges in the big data value chain, from data acquisition, data analysis and processing, data storage and curation, and data visualisation in real scenarios. Industry 4.0 is pushing this trend forward, demanding for servitization of products and data, also for the smart cities sector where humans, sensors and devices are operating in strict collaboration. The data produced by the ubiquitous devices must be processed quickly to allow the implementation of reactive services such as situational awareness, video surveillance and geo-localization, while always ensuring the safety and privacy of involved citizens. This paper proposes a modular architecture to (i) leverage innovative technologies for data acquisition, management and distribution (such as Apache Kafka and Apache NiFi), (ii) develop a multi-layer engineering solution for revealing valuable and hidden societal knowledge in smart cities environment, and (iii) tackle the main issues in tasks involving complex data flows and provide general guidelines to solve them. We derived some guidelines from an experimental setting performed together with leading industrial technical departments to accomplish an efficient system for monitoring and servitization of smart city assets, with a scalable platform that confirms its usefulness in numerous smart city use cases with different needs.},
+
+  groups    = {Kafka},
+  issn      = {2687-8860},
+  keywords  = {Kafka},
+}
+
+@InProceedings{Ren2016,
+  author      = {Ren, Xiangnan and Cur{\'e}, Olivier and Khrouf, Houda and Kazi-Aoul, Zakia and Chabchoub, Yousra},
+  booktitle   = {{15th International Semantic Web Conference ISWC 2016}},
+  date        = {2016},
+  title       = {{Apache Spark and Apache Kafka at the rescue of distributed RDF Stream Processing engines}},
+  language    = {english},
+  location    = {Kobe, Japan},
+  url         = {https://hal.archives-ouvertes.fr/hal-01740515},
+  abstract    = {Due to the growing need to timely process and derive valuable information and knowledge from data produced in the Semantic Web, RDF stream processing (RSP) has emerged as an important research domain. In this paper, we describe the design of an RSP engine that is built upon state of the art Big Data frameworks, namely Apache Kafka and Apache Spark. Together, they support the implementation of a production-ready RSP engine that guarantees scalability, fault-tolerance, high availability, low latency and high throughput. Moreover, we highlight that the Spark framework considerably eases the implementation of complex applications requiring libraries as diverse as machine learning, graph processing, query processing and stream processing.},
+
+  groups      = {Kafka},
+  hal_id      = {hal-01740515},
+  hal_version = {v1},
+  keywords    = {Kafka},
+  pdf         = {https://hal.archives-ouvertes.fr/hal-01740515/file/paper43.pdf},
+}
+
+@InProceedings{Ledeul2020,
+  author    = {A. Ledeul and A. Savulescu and G. Segura and B. Styczen},
+  booktitle = {Proc. ICALEPCS'19},
+  date      = {2020-08},
+  title     = {{Data Streaming With Apache Kafka for CERN Supervision, Control and Data Acquisition System for Radiation and Environmental Protection}},
+  doi       = {10.18429/JACoW-ICALEPCS2019-MOMPL010},
+  isbn      = {978-3-95450-209-7},
+  language  = {english},
+  note      = {https://doi.org/10.18429/JACoW-ICALEPCS2019-MOMPL010},
+  number    = {17},
+  pages     = {147--151},
+  publisher = {JACoW Publishing, Geneva, Switzerland},
+  series    = {International Conference on Accelerator and Large Experimental Physics Control Systems},
+  url       = {https://jacow.org/icalepcs2019/papers/mompl010.pdf},
+  venue     = {New York, NY, USA},
+  abstract  = {The CERN HSE - occupational Health & Safety and Environmental protection - Unit develops and operates REMUS - Radiation and Environmental Unified Supervision - , a Radiation and Environmental Supervision, Control and Data Acquisition system, covering CERN accelerators, experiments and their surrounding environment. REMUS is now making use of modern data streaming technologies in order to provide a secure, reliable, scalable and loosely coupled solution for streaming near real-time data in and out of the system. Integrating the open-source streaming platform Apache Kafka allows the system to stream near real-time data to Data Visualization Tools and Web Interfaces. It also permits full-duplex communication with external Control Systems and IIoT - Industrial Internet Of Things - devices, without compromising the security of the system and using a widely adopted technology. This paper describes the architecture of the system put in place, and the numerous applications it opens up for REMUS and Control Systems in general.},
+
+  groups    = {Kafka},
+  issn      = {2226-0358},
+  keywords  = {controls, SCADA, real-time, radiation, monitoring, Kafka},
+  paper     = {MOMPL010},
+}
+
+@InProceedings{Mishra2019,
+  author    = {Mishra, Sanket and Hota, Chittaranjan},
+  booktitle = {2019 IEEE 16th India Council International Conference (INDICON)},
+  date      = {2019-12},
+  title     = {A REST Framework on IoT Streams using Apache Spark for Smart Cities},
+  doi       = {10.1109/INDICON47234.2019.9029012},
+  language  = {english},
+  pages     = {1-4},
+  abstract  = {The proliferation in the sensory hardware and the generation of voluminous data in Internet of Things (IoT) necessitate the development of effective methodologies to process the data to create actionable knowledge. Existing works tend to train cognitive models on data and derive insights from it. The insights may or may not be in real-time. This proposed work illustrates a real-time streaming analytics framework to predict congestions on multivariate IoT data streams in a smart city scenario. With an increase in the connected devices and Machine to Machine (M2M) communications, there is also a rise in the volumes of data generated. To handle such voluminous data, the frameworks needs to address scalability and reliability aspects. In this research, we present an architecture with the help of open source components that simulate an IoT streaming scenario in a persistent way and a batch analytics engine that processes the data inputs in order to produce higher order, granular insights. For the proposed work, we have used unsupervised learning approaches to identify congestions in traffic scenarios in smart cities.},
+
+  groups    = {Kafka},
+  issn      = {2325-9418},
+  keywords  = {Kafka},
+}
+
+@InProceedings{Kummerow2020,
+  author    = {Kummerow, Andre and Monsalve, Cristian and Rösch, Dennis and Schäfer, Kevin and Nicolai, Steffen},
+  booktitle = {2020 International Conference on Smart Energy Systems and Technologies (SEST)},
+  date      = {2020-09},
+  title     = {Cyber-physical data stream assessment incorporating Digital Twins in future power systems},
+  doi       = {10.1109/SEST48500.2020.9203270},
+  language  = {english},
+  pages     = {1-6},
+  abstract  = {Reliable and secure grid operations become more and more challenging in context of increasing IT/OT convergence and decreasing dynamic margins in today's power systems. To ensure the correct operation of monitoring and control functions in control centres, an intelligent assessment of the different information sources is necessary to provide a robust data source in case of critical physical events as well as cyber-attacks. Within this paper, a holistic data stream assessment methodology is proposed using an expert knowledge based cyber-physical situational awareness for different steady and transient system states. This approach goes beyond existing techniques by combining high-resolution PMU data with SCADA information as well as Digital Twin and AI based anomaly detection functionalities.},
+
+  groups    = {Kafka},
+  keywords  = {Kafka},
+}
+
+@InProceedings{Abhaay2021,
+  author    = {Abhaay, S and Shashank, MG and Shreyas, BS and Kalambur, Subramaniam},
+  booktitle = {2021 2nd Global Conference for Advancement in Technology (GCAT)},
+  date      = {2021-10},
+  title     = {Effect of Garbage Collection on Streaming Big Data Workloads},
+  doi       = {10.1109/GCAT52182.2021.9587808},
+  language  = {english},
+  pages     = {1-6},
+  abstract  = {Java applications retrieve memory items as needed. The function of garbage collection (GC) on Java Virtual Machine (JVM) is to automatically determine which memory is no longer in use by the Java system and to deallocate the objects stored in this part of the memory. As memory is restored to JVM automatically, Java developers are not responsible for explicitly deleting unused memory items. We study the performance of various GCs on an Apache Kafka-Storm platform for processing a real-time workload. We demonstrate that the choice of the Garbage collector is sensitive to the configuration of Kafka and the impact of Garbage Collection events on the latency of processing application.},
+
+  groups    = {Kafka},
+  keywords  = {Kafka},
+}
+
+@InProceedings{Casale2017,
+  author   = {Casale, Giuliano and Alnafessah, Ahmad},
+  date     = {2017-07},
+  title    = {QT: A Quality Testing Tool for Data-Intensive Applications},
+  doi      = {10.5176/2251-2136_ICT-BDCS17.49},
+  language = {english},
+  abstract = {We present the DICE Quality Testing (QT) tool, a software for load injection and testing of Data-Intensive Applications (DIAs). The load injection mechanism of the DICE QT tool is designed for Apache Storm – a mature, stable and well-known Big Data technology for stream-based applications – and Apache Kafka. The QT tool consists of two modules. The first module is named QT-GEN and can generate input workload similar, but nevertheless non-identical, to the real workload data supplied to it, with prescribed rates for each type of message. The QT-LIB module is a Java library that provides custom spouts for autonomic workload injection into DIAs. The paper demonstrates the applicability of the tool on two case studies.},
+
+  groups   = {Kafka},
+  keywords = {Kafka},
+}
+
+@InProceedings{Runsewe2017,
+  author    = {Runsewe, Olubisi and Samaan, Nancy},
+  booktitle = {2017 17th IEEE/ACM International Symposium on Cluster, Cloud and Grid Computing (CCGRID)},
+  date      = {2017-05},
+  title     = {Cloud Resource Scaling for Big Data Streaming Applications Using a Layered Multi-dimensional Hidden Markov Model},
+  doi       = {10.1109/CCGRID.2017.147},
+  language  = {english},
+  pages     = {848-857},
+  abstract  = {Recent advancements in technology have led to a deluge of data that require real-time analysis with strict latency constraints. A major challenge, however, is determining the amount of resources required by big data stream processing applications in response to heterogeneous data sources, streaming events, unpredictable data volume and velocity changes. Over-provisioning of resources for peak loads can be wasteful while under-provisioning can have a huge impact on the performance of the streaming applications. The majority of research efforts on resource scaling in the cloud are investigated from the cloud provider's perspective, they focus on web applications and do not consider multiple resource bottlenecks. We aim at analyzing the resource scaling problem from a big data streaming application provider's point of view such that efficient scaling decisions can be made for future resource utilization. This paper proposes a Layered Multi-dimensional Hidden Markov Model (LMD-HMM) for facilitating the management of resource auto-scaling for big data streaming applications in the cloud. Our detailed experimental evaluation shows that LMD-HMM performs best with an accuracy of 98%, outperforming the single-layer hidden markov model.},
+
+  groups    = {Kafka},
+  keywords  = {Kafka},
+}
+
+@Book{Narkhede2017,
+  author    = {Narkhede, Neha and Shapira, Gwen and Palino, Todd},
+  date      = {2017},
+  title     = {Kafka: The Definitive Guide},
+  edition   = {1},
+  isbn      = {978-1491936160},
+  language  = {english},
+  publisher = {O'Reilly Media, Inc.},
+  subtitle  = {Real-Time Data and Stream Processing at Scale},
+  url       = {https://www.oreilly.com/library/view/kafka-the-definitive/9781491936153/},
+  abstract  = {Every enterprise application creates data, whether its log messages, metrics, user activity, outgoing messages, or something else. And how to move all of this data becomes nearly as important as the data itself. If youre an application architect, developer, or production engineer new to Apache Kafka, this practical guide shows you how to use this open source streaming platform to handle real-time data feeds. Engineers from Confluent and LinkedIn who are responsible for developing Kafka explain how to deploy production Kafka clusters, write reliable event-driven microservices, and build scalable stream-processing applications with this platform. Through detailed examples, youll learn Kafkas design principles, reliability guarantees, key APIs, and architecture details, including the replication protocol, the controller, and the storage layer. Understand publish-subscribe messaging and how it fits in the big data ecosystem. Explore Kafka producers and consumers for writing and reading messages Understand Kafka patterns and use-case requirements to ensure reliable data delivery Get best practices for building data pipelines and applications with Kafka Manage Kafka in production, and learn to perform monitoring, tuning, and maintenance tasks Learn the most critical metrics among Kafkas operational measurements Explore how Kafkas stream delivery capabilities make it a perfect source for stream processing systems},
+
+  groups    = {Kafka},
+  keywords  = {Kafka},
+}
+
+@Book{Narkhede2021,
+  author    = {Narkhede, Neha and Shapira, Gwen and Palino, Todd},
+  date      = {2021},
+  title     = {Kafka: The Definitive Guide},
+  edition   = {2},
+  isbn      = {978-1492043089},
+  language  = {english},
+  publisher = {O'Reilly Media, Inc.},
+  subtitle  = {Real-Time Data and Stream Processing at Scale},
+  url       = {https://www.oreilly.com/library/view/kafka-the-definitive/9781492043072},
+  abstract  = {Every enterprise application creates data, whether its log messages, metrics, user activity, outgoing messages, or something else. And how to move all of this data becomes nearly as important as the data itself. If youre an application architect, developer, or production engineer new to Apache Kafka, this practical guide shows you how to use this open source streaming platform to handle real-time data feeds. Engineers from Confluent and LinkedIn who are responsible for developing Kafka explain how to deploy production Kafka clusters, write reliable event-driven microservices, and build scalable stream-processing applications with this platform. Through detailed examples, youll learn Kafkas design principles, reliability guarantees, key APIs, and architecture details, including the replication protocol, the controller, and the storage layer. Understand publish-subscribe messaging and how it fits in the big data ecosystem. Explore Kafka producers and consumers for writing and reading messages Understand Kafka patterns and use-case requirements to ensure reliable data delivery Get best practices for building data pipelines and applications with Kafka Manage Kafka in production, and learn to perform monitoring, tuning, and maintenance tasks Learn the most critical metrics among Kafkas operational measurements Explore how Kafkas stream delivery capabilities make it a perfect source for stream processing systems},
+
+  groups    = {Kafka},
+  keywords  = {Kafka},
+}
+
+@Book{Kleppmann2016,
+  author    = {Kleppmann, Martin},
+  date      = {2016},
+  title     = {Making Sense of Stream Processing},
+  edition   = {1},
+  isbn      = {978-1491937280},
+  publisher = {O'Reilly Media, Inc.},
+  url       = {https://www.oreilly.com/library/view/making-sense-of/9781492042563/},
+
+  groups    = {Kafka},
+  keywords  = {Kafka},
+}
+
+@Book{Kreps2014,
+  author    = {Kreps, Jay},
+  date      = {2014-10},
+  title     = {{I} Heart Logs},
+  edition   = {1},
+  isbn      = {978-1491909386},
+  location  = {Sebastopol, CA},
+  publisher = {O'Reilly Media},
+  url       = {https://www.oreilly.com/library/view/i-heart-logs/9781491909379/},
+
+  groups    = {Kafka},
+  keywords  = {Kafka},
+}
+
+@Book{Stopford2018,
+  author    = {Stopford, Ben},
+  date      = {2018},
+  title     = {Designing Event-Driven Systems},
+  edition   = {1},
+  isbn      = {978-1492038245},
+  publisher = {O'Reilly Media},
+  url       = {https://www.oreilly.com/library/view/designing-event-driven-systems/9781492038252/},
+
+  groups    = {Kafka},
+  keywords  = {Kafka},
+}
+
+@Article{Wang2015,
+  author       = {Wang, Guozhang and Koshy, Joel and Subramanian, Sriram and Paramasivam, Kartik and Zadeh, Mammad and Narkhede, Neha and Rao, Jun and Kreps, Jay and Stein, Joe},
+  date         = {2015-08},
+  journaltitle = {Proc. VLDB Endow.},
+  title        = {Building a Replicated Logging System with Apache Kafka},
+  doi          = {10.14778/2824032.2824063},
+  issn         = {2150-8097},
+  language     = {english},
+  number       = {12},
+  pages        = {1654–1655},
+  url          = {https://doi.org/10.14778/2824032.2824063},
+  volume       = {8},
+  abstract     = {Apache Kafka is a scalable publish-subscribe messaging system with its core architecture as a distributed commit log. It was originally built at LinkedIn as its centralized event pipelining platform for online data integration tasks. Over the past years developing and operating Kafka, we extend its log-structured architecture as a replicated logging backbone for much wider application scopes in the distributed environment. In this abstract, we will talk about our design and engineering experience to replicate Kafka logs for various distributed data-driven systems at LinkedIn, including source-of-truth data storage and stream processing.},
+
+  groups       = {Kafka},
+  issue_date   = {August 2015},
+  keywords     = {Kafka},
+  numpages     = {2},
+  publisher    = {VLDB Endowment},
+}
+
+@Article{Lawlor2018,
+  author       = {Lawlor, Brendan and Lynch, Richard and Mac Aogáin, Micheál and Walsh, Paul},
+  date         = {2018-04},
+  journaltitle = {GigaScience},
+  title        = {{Field of genes: using Apache Kafka as a bioinformatic data repository}},
+  doi          = {10.1093/gigascience/giy036},
+  eprint       = {https://academic.oup.com/gigascience/article-pdf/7/4/giy036/24655200/giy036.pdf},
+  issn         = {2047-217X},
+  language     = {english},
+  note         = {giy036},
+  number       = {4},
+  url          = {https://doi.org/10.1093/gigascience/giy036},
+  volume       = {7},
+  abstract     = {{Bioinformatic research is increasingly dependent on large-scale datasets, accessed either from private or public repositories. An example of a public repository is National Center for Biotechnology Information's (NCBI’s) Reference Sequence (RefSeq). These repositories must decide in what form to make their data available. Unstructured data can be put to almost any use but are limited in how access to them can be scaled. Highly structured data offer improved performance for specific algorithms but limit the wider usefulness of the data. We present an alternative: lightly structured data stored in Apache Kafka in a way that is amenable to parallel access and streamed processing, including subsequent transformations into more highly structured representations. We contend that this approach could provide a flexible and powerful nexus of bioinformatic data, bridging the gap between low structure on one hand, and high performance and scale on the other. To demonstrate this, we present a proof-of-concept version of NCBI’s RefSeq database using this technology. We measure the performance and scalability characteristics of this alternative with respect to flat files.The proof of concept scales almost linearly as more compute nodes are added, outperforming the standard approach using files.Apache Kafka merits consideration as a fast and more scalable but general-purpose way to store and retrieve bioinformatic data, for public, centralized reference datasets such as RefSeq and for private clinical and experimental data.}},
+
+  groups       = {Kafka},
+  keywords     = {Kafka},
+}
+
+@Article{Kul2021,
+  author       = {Kul, Seda and Tashiev, Isabek and Şentaş, Ali and Sayar, Ahmet},
+  date         = {2021},
+  journaltitle = {IEEE Access},
+  title        = {Event-Based Microservices With Apache Kafka Streams: A Real-Time Vehicle Detection System Based on Type, Color, and Speed Attributes},
+  doi          = {10.1109/ACCESS.2021.3085736},
+  issn         = {2169-3536},
+  language     = {english},
+  pages        = {83137-83148},
+  volume       = {9},
+  abstract     = {The work presented in this paper proposes a novel approach to tracking a specific vehicle over the video streams published by the collaborating traffic surveillance cameras. In recent years, smart, effective transportation systems and intelligent traffic management applications are among the topics that have been given importance by various institutions. Developing a scalable, fault-tolerant, and resilient traffic monitoring system that retrieves video chunks with the desired query is challenging. For these challenging problems, stream processing and data retrieval systems have been developed over the years. However, there are still existing shortcomings between users and retrieval systems. This paper investigates the problem of retrieving video chunks by key-value query based on publish/subscribe model. Thus, we propose a hybrid of an asynchronous and synchronous communication mechanism for the Event-Based Microservice framework. We aim to develop generic techniques for better utilization of existing platforms. In the proposed framework, (i) first of all, microservices detect vehicles and extract their type, color, and speed features, and stored them in the metadata repository. (ii) Microservices publish each feature as events (iii) Other microservices self-join subscribe to those events, which leads to more events being published by combing all the possibilities: type-color, type-speed, color-speed, and type-color-speed. Finally, (iv) the system visualizes the query result and system status in real-time. When the user has selected color or/and a type or/and a speed feature, the system will return the best-matched vehicles without re-processing the videos. Experimental results show that our proposed system filters messages in real-time and supports easy integration of new microservices with the existing system.},
+
+  groups       = {Kafka},
+  keywords     = {Kafka},
+}
+
+@Article{Kross2016,
+  author       = {Kro{\ss}, Johannes and Krcmar, Helmut},
+  date         = {2016-11},
+  journaltitle = {Softwaretechnik-Trends},
+  title        = {Modeling and Simulating Apache Spark Streaming Applications},
+  issn         = {ISSN 0720-8928},
+  language     = {english},
+  number       = {4},
+  series       = {SSP 2016},
+  url          = {http://pi.informatik.uni-siegen.de/stt/36_4/01_Fachgruppenberichte/SSP2016/ssp-stt/22-Modeling_and_Simulating_Apache_Spark_Streaming_Applications.pdf},
+  volume       = {36},
+  abstract     = {Stream  processing  systems  are  used  to  analyze  big data  streams  with  low  latency.   The  performance  in terms  of  response  time  and  throughput  is  crucial  to ensure all arriving data are processed in time.  This depends on various factors such as the complexity of used algorithms and configurations of such distributed systems  and  applications.   To  ensure  a  desired  system behavior, performance evaluations should be conducted to determine the throughput and required resources in advance.  In this paper, we present an approach to predict the response time of Apache Spark Streaming  applications  by  modeling  and simulating them.   In  a  preliminary  controlled  experiment,  our simulation results suggest accurate prediction values for an upscaling scenario.},
+
+  groups       = {Kafka},
+  keywords     = {Kafka},
+}
+
+@Article{Akbar2018,
+  author       = {Akbar, Adnan and Kousiouris, George and Pervaiz, Haris and Sancho, Juan and Ta-Shma, Paula and Carrez, Francois and Moessner, Klaus},
+  date         = {2018},
+  journaltitle = {IEEE Access},
+  title        = {Real-Time Probabilistic Data Fusion for Large-Scale IoT Applications},
+  doi          = {10.1109/ACCESS.2018.2804623},
+  issn         = {2169-3536},
+  language     = {english},
+  pages        = {10015-10027},
+  volume       = {6},
+  abstract     = {Internet of Things (IoT) data analytics is underpinning numerous applications, however, the task is still challenging predominantly due to heterogeneous IoT data streams, unreliable networks, and ever increasing size of the data. In this context, we propose a two-layer architecture for analyzing IoT data. The first layer provides a generic interface using a service oriented gateway to ingest data from multiple interfaces and IoT systems, store it in a scalable manner and analyze it in real-time to extract high-level events; whereas second layer is responsible for probabilistic fusion of these high-level events. In the second layer, we extend state-of-the-art event processing using Bayesian networks in order to take uncertainty into account while detecting complex events. We implement our proposed solution using open source components optimized for large-scale applications. We demonstrate our solution on real-world use-case in the domain of intelligent transportation system where we analyzed traffic, weather, and social media data streams from Madrid city in order to predict probability of congestion in real-time. The performance of the system is evaluated qualitatively using a web-interface where traffic administrators can provide the feedback about the quality of predictions and quantitatively using F-measure with an accuracy of over 80%.},
+
+  groups       = {Kafka},
+  keywords     = {Kafka},
+}
+
+@Article{Fujita2020,
+  author       = {Fujita, Hamido and Gaeta, Angelo and Loia, Vincenzo and Orciuoli, Francesco},
+  date         = {2020-05},
+  journaltitle = {IEEE Transactions on Fuzzy Systems},
+  title        = {Hypotheses Analysis and Assessment in Counterterrorism Activities: A Method Based on OWA and Fuzzy Probabilistic Rough Sets},
+  doi          = {10.1109/TFUZZ.2019.2955047},
+  issn         = {1941-0034},
+  language     = {english},
+  number       = {5},
+  pages        = {831-845},
+  volume       = {28},
+  abstract     = {This article presents a new interactive method to analyze and assess hypotheses, and its application to terrorism events. The method combines probability, fuzzy, and rough set theories and supports decision makers and analysts of counterterrorism in the analysis of intelligence information by using behavioral models of known terrorist groups. Starting from intelligence information about possible attack patterns, the proposed method uses two parameters allowing derivation and analysis of a wide range of hypotheses, and their assessment on the basis of different support levels of evidence. The evaluation of results has been done on real data relating to five years (2012-2016) of terrorist activities extracted from the Global Terrorism Database.},
+
+  groups       = {Kafka},
+  keywords     = {Kafka},
+}
+
+@Article{Su2022,
+  author       = {Su, Guoxin and Liu, Li and Zhang, Minjie and Rosenblum, David S.},
+  date         = {2022-02},
+  journaltitle = {IEEE Transactions on Software Engineering},
+  title        = {Quantitative Verification for Monitoring Event-Streaming Systems},
+  doi          = {10.1109/TSE.2020.2996033},
+  issn         = {1939-3520},
+  language     = {english},
+  number       = {2},
+  pages        = {538-550},
+  volume       = {48},
+  abstract     = {High-performance data streaming technologies are increasingly adopted in IT companies to support the integration of heterogeneous and possibly distributed applications. Compared with the traditional message queuing middleware, a streaming platform enables the implementation of event-streaming systems (ESS) which include not only complex queues but also pipelines that transform and react to the streams of data. By analysing the centralised data streams, one can evaluate the Quality-of-Service for other systems and components that produce or consume those streams. We consider the exploitation of probabilistic model checking as a performance monitoring technique for ESS systems. Probabilistic model checking is a mature, powerful verification technique with successful application in performance analysis. However, an ESS system may contain quantitative parameters that are determined by event streams observed in a certain period of time. In this paper, we present a novel theoretical framework called QV4M (meaning “quantitative verification for monitoring”) for monitoring ESS systems, which is based on two recent methods of probabilistic model checking. QV4M assumes the parameters in a probabilistic system model as random variables and infers the statistical significance for the probabilistic model checking output. We also present an empirical evaluation of computational time and data cost for QV4M.},
+
+  groups       = {Kafka},
+  keywords     = {Kafka},
+}
+
+@Comment{jabref-meta: databaseType:biblatex;}
+
+@Comment{jabref-meta: grouping:
+0 AllEntriesGroup:;
+1 StaticGroup:Kafka\;0\;1\;0x8a8a8aff\;\;\;;
+}
